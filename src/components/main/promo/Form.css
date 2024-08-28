@@ -1,0 +1,35 @@
+.asi-form {
+    margin-top: 100px;
+    text-align: center;
+  }
+  
+  .asi-icon {
+    margin-bottom: 20px;
+ 
+  }
+  
+  .asi-icon img {
+    width: 50px;
+  }
+  
+  .form-group {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .form-group input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    width: 300px;
+  }
+  
+  .form-group button {
+    background-color: rgba(77, 33, 109, 1);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
