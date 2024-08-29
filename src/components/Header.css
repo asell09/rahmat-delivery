@@ -1,6 +1,7 @@
-body {
+body{
   background: white;
 }
+
 
 .nav {
     display: flex;
@@ -8,10 +9,12 @@ body {
     align-items: center;
     padding: 20px;
     background-color: #fff;
+
   }
 
   .nav-buttton {
     display: none;
+    background: white;
   } 
 
   .logo img {
@@ -91,6 +94,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 50px;
+  
   }
   
   .qwer-text {
@@ -125,10 +129,27 @@ body {
     cursor: pointer;
   }
 
+  @media (max-width: 768px) {
+    .qwer-section {
+      flex-direction: column;
+    }
+  
+    .qwer-text {
+      flex: 1 1 100%;
+      text-align: center;
+    }
+  
+    .qwer-image {
+      flex: 1 1 100%;
+      margin-top: 20px;
+    }
+  }
+
   .cart-section {
     text-align: center;
     padding: 2rem;
     margin-top: 50px;
+    background: white;
   }
   
   .section-title {

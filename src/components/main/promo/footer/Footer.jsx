@@ -5,7 +5,7 @@ const Footer = () => {
     return (
       <div className="footer">
         <div className="footer-container">
-          <div className="footer-section">
+          <div className="footer-section information">  
             <h4>Information</h4>
             <ul> 
               <li><a href="#privacy">Privacy Policy</a></li>
@@ -13,7 +13,7 @@ const Footer = () => {
               <li><a href="#faq">FAQ</a></li>
             </ul>
           </div>
-          <div className="footer-section">
+          <div className="footer-section payment-methods">
             <h4>Payment Methods:</h4>
             <ul>
               <li>Online Payment</li>
@@ -21,14 +21,14 @@ const Footer = () => {
               <li>Credit/Debit Cards</li>
             </ul>
           </div>
-          <div className="footer-section">
+          <div className="footer-section  business-hours">
             <h4>Business Hours</h4>
             <ul>
               <li>Mon-Fri: 9:00 AM - 9:00 PM</li>
               <li>Sat-Sun: 10:00 AM - 6:00 PM</li>
             </ul>
           </div>
-          <div className="footer-section">
+          <div className="footer-section contact">
             <h4>Contact</h4>
             <ul>
               <li>+1 (234) 567-8901</li>

@@ -9,7 +9,7 @@
 
   .mainkart-container {
     display: flex;
-    justify-content: center;
+    justify-content: center;  
     gap: 20px;
     margin-top: 30px;
   }

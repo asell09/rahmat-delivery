@@ -28,7 +28,7 @@
   }
   
   .right-section {
-    max-width: 40%;
+    max-width: 55%;
   }
   
   .checkbox-item {
@@ -46,6 +46,24 @@
   .checkbox-item label {
     font-size: 16px;
     color: #333;
+  }
+
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      align-items: center;
+    };
+
+    .left-section, .right-section {
+      max-width: 100%;
+      text-align: center;
+    }
+    .checkbox-item {
+      justify-content: center;
+    }
+    .checkbox{
+      margin-left: 5px;
+    }
   }
 
 
@@ -78,7 +96,7 @@
   .learn-more {
     background-color: rgba(77, 33, 109, 1); 
     color: white;
-    border: none;
+    border: none;           
     padding: 10px 20px;
     cursor: pointer;
     border-radius: 20px;
@@ -88,3 +106,30 @@
   .learn-more:hover {
     background-color: rgba(77, 33, 109, 1);
   }
+
+
+  @media (max-width: 768px) {
+    .asi-conteiner {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .text-container {
+      max-width: 100%;
+      padding-left: 0;
+    }
+  
+    .text-container h2 {
+      font-size: 20px;
+    }
+  
+    .text-container p {
+      font-size: 14px;
+    }
+    
+    .learn-more button {
+      width: 100%;
+    }
+  }
+  

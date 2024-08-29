@@ -78,7 +78,7 @@ function Header() {
               </svg>
             </div>
             <h3 className="cart-title1">Lorem ipsum dolor</h3>
-            <a href="#" className="cart-link">more details</a>
+            <a href="#" className="cart-link">more details &rarr;</a>
           </div>
           <div className="cart">
             <div className="iconk">
