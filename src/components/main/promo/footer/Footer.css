@@ -2,7 +2,8 @@
     background-color: rgba(62, 63, 65, 1);
     color: #fff;
     padding: 20px 0;
- 
+    display: flex;
+    justify-content: space-between;
   }
   
   .footer-container {

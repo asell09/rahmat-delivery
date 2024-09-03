@@ -1,6 +1,7 @@
 .asi-form {
     margin-top: 100px;
     text-align: center;
+   
   }
   
   .asi-icon {
@@ -23,6 +24,8 @@
     border: 1px solid #ddd;
     border-radius: 20px;
     width: 300px;
+    background: rgba(228, 226, 228, 1);
+    ;
   }
   
   .form-group button {
